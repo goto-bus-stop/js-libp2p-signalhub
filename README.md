@@ -2,7 +2,7 @@
 
 [![](https://raw.githubusercontent.com/libp2p/interface-peer-discovery/master/img/badge.png)](https://github.com/libp2p/interface-peer-discovery)
 
-peer discovery for libp2p using signalhubs
+peer discovery for libp2p using [signalhub](https://github.com/mafintosh/signalhub)s
 
 [Install](#install) - [Usage](#usage) - [License: Apache-2.0](#license)
 
