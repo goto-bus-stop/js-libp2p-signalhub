@@ -1,0 +1,40 @@
+{
+  "name": "libp2p-signalhub",
+  "description": "peer discovery for libp2p using signalhubs",
+  "version": "0.0.0",
+  "author": "Renée Kooi <renee@kooi.me>",
+  "bugs": {
+    "url": "https://github.com/goto-bus-stop/libp2p-signalhub/issues"
+  },
+  "homepage": "https://github.com/goto-bus-stop/libp2p-signalhub",
+  "keywords": [
+    "libp2p",
+    "peer-discovery",
+    "signalhub"
+  ],
+  "license": "Apache-2.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/goto-bus-stop/libp2p-signalhub.git"
+  },
+  "scripts": {
+    "test": "standard && node test | tap-spec"
+  },
+  "dependencies": {
+    "inherits": "^2.0.3",
+    "ms": "^2.1.1",
+    "multiaddr": "^6.0.5",
+    "peer-id": "^0.12.2",
+    "peer-info": "^0.15.1",
+    "signalhub": "^4.9.0"
+  },
+  "devDependencies": {
+    "libp2p": "^0.24.4",
+    "libp2p-websockets": "^0.12.2",
+    "pull-stream": "^3.6.9",
+    "standard": "^11.0.0",
+    "tap-spec": "^5.0.0",
+    "tape": "^4.0.0"
+  }
+}
