@@ -4,9 +4,9 @@
   "version": "1.0.0",
   "author": "Renée Kooi <renee@kooi.me>",
   "bugs": {
-    "url": "https://github.com/goto-bus-stop/libp2p-signalhub/issues"
+    "url": "https://github.com/goto-bus-stop/js-libp2p-signalhub/issues"
   },
-  "homepage": "https://github.com/goto-bus-stop/libp2p-signalhub",
+  "homepage": "https://github.com/goto-bus-stop/js-libp2p-signalhub",
   "keywords": [
     "libp2p",
     "peer-discovery",
@@ -16,7 +16,7 @@
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/goto-bus-stop/libp2p-signalhub.git"
+    "url": "https://github.com/goto-bus-stop/js-libp2p-signalhub.git"
   },
   "scripts": {
     "test": "standard && node test | tap-spec"
